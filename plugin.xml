@@ -1,0 +1,22 @@
+<plugin name='tiny-editor' version='0.1' grailsVersion='2.0 &gt; *'>
+  <author>Meni Lubetkin</author>
+  <authorEmail>menil@opentunities.com</authorEmail>
+  <title>Tiny Editor Plugin</title>
+  <description>tiny MCE editor resource files and tags with customization options</description>
+  <type>TinyEditorGrailsPlugin</type>
+  <resources>
+    <resource>TinyEditorResources</resource>
+    <resource>tiny.editor.TinyEditorTagLib</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://plugins.grails.org' />
+    <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies />
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>

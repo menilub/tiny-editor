@@ -1,0 +1,14 @@
+*.iws
+*DB.properties
+*DB.script
+*DB.log
+.settings
+.classpath
+eclipse
+stacktrace.log
+target
+out
+/web-app/WEB-INF/classes
+.idea
+*.iml
+
